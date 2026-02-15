@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data sources for NYC taxi rides"
+    database: modern-crane-486522-p5 # project ID
+    schema: zoomcamp
+    tables: 
+    - name: yellow_tripdata
+    - name: green_tripdata
